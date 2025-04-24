@@ -1,11 +1,11 @@
 
 function showSection(params){
-     const elements = document.querySelectorAll(".main-content  > div")
+     const array = document.querySelectorAll(".main-content  > div")
 
 
 
-     elements.forEach(dt => {
-        dt.classList.add ('hidden')
+     array.forEach((element) => { 
+        element.classList.add ('hidden')
 
      });
 
